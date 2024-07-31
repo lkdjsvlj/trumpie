@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD9FACE72C50F78F0008878E /* lozzaFirstAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9FACE62C50F78F0008878E /* lozzaFirstAppApp.swift */; };
+		BD9FACE92C50F78F0008878E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9FACE82C50F78F0008878E /* ContentView.swift */; };
+		BD9FACEB2C50F7900008878E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9FACEA2C50F7900008878E /* Assets.xcassets */; };
+		BD9FACEE2C50F7900008878E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9FACED2C50F7900008878E /* Preview Assets.xcassets */; };
+		BD9FACF82C50F7900008878E /* lozzaFirstAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9FACF72C50F7900008878E /* lozzaFirstAppTests.swift */; };
+		BD9FAD022C50F7900008878E /* lozzaFirstAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9FAD012C50F7900008878E /* lozzaFirstAppUITests.swift */; };
+		BD9FAD042C50F7900008878E /* lozzaFirstAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9FAD032C50F7900008878E /* lozzaFirstAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD9FACF42C50F7900008878E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD9FACDB2C50F78E0008878E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD9FACE22C50F78F0008878E;
+			remoteInfo = lozzaFirstApp;
+		};
+		BD9FACFE2C50F7900008878E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD9FACDB2C50F78E0008878E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD9FACE22C50F78F0008878E;
+			remoteInfo = lozzaFirstApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD9FACE32C50F78F0008878E /* lozzaFirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lozzaFirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD9FACE62C50F78F0008878E /* lozzaFirstAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lozzaFirstAppApp.swift; sourceTree = "<group>"; };
+		BD9FACE82C50F78F0008878E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BD9FACEA2C50F7900008878E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD9FACED2C50F7900008878E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD9FACF32C50F7900008878E /* lozzaFirstAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lozzaFirstAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD9FACF72C50F7900008878E /* lozzaFirstAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lozzaFirstAppTests.swift; sourceTree = "<group>"; };
+		BD9FACFD2C50F7900008878E /* lozzaFirstAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lozzaFirstAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD9FAD012C50F7900008878E /* lozzaFirstAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lozzaFirstAppUITests.swift; sourceTree = "<group>"; };
+		BD9FAD032C50F7900008878E /* lozzaFirstAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lozzaFirstAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD9FACE02C50F78F0008878E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9FACF02C50F7900008878E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9FACFA2C50F7900008878E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD9FACDA2C50F78E0008878E = {
+			isa = PBXGroup;
+			children = (
+				BD9FACE52C50F78F0008878E /* lozzaFirstApp */,
+				BD9FACF62C50F7900008878E /* lozzaFirstAppTests */,
+				BD9FAD002C50F7900008878E /* lozzaFirstAppUITests */,
+				BD9FACE42C50F78F0008878E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD9FACE42C50F78F0008878E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD9FACE32C50F78F0008878E /* lozzaFirstApp.app */,
+				BD9FACF32C50F7900008878E /* lozzaFirstAppTests.xctest */,
+				BD9FACFD2C50F7900008878E /* lozzaFirstAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD9FACE52C50F78F0008878E /* lozzaFirstApp */ = {
+			isa = PBXGroup;
+			children = (
+				BD9FACE62C50F78F0008878E /* lozzaFirstAppApp.swift */,
+				BD9FACE82C50F78F0008878E /* ContentView.swift */,
+				BD9FACEA2C50F7900008878E /* Assets.xcassets */,
+				BD9FACEC2C50F7900008878E /* Preview Content */,
+			);
+			path = lozzaFirstApp;
+			sourceTree = "<group>";
+		};
+		BD9FACEC2C50F7900008878E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BD9FACED2C50F7900008878E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD9FACF62C50F7900008878E /* lozzaFirstAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD9FACF72C50F7900008878E /* lozzaFirstAppTests.swift */,
+			);
+			path = lozzaFirstAppTests;
+			sourceTree = "<group>";
+		};
+		BD9FAD002C50F7900008878E /* lozzaFirstAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD9FAD012C50F7900008878E /* lozzaFirstAppUITests.swift */,
+				BD9FAD032C50F7900008878E /* lozzaFirstAppUITestsLaunchTests.swift */,
+			);
+			path = lozzaFirstAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD9FACE22C50F78F0008878E /* lozzaFirstApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD9FAD072C50F7900008878E /* Build configuration list for PBXNativeTarget "lozzaFirstApp" */;
+			buildPhases = (
+				BD9FACDF2C50F78F0008878E /* Sources */,
+				BD9FACE02C50F78F0008878E /* Frameworks */,
+				BD9FACE12C50F78F0008878E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lozzaFirstApp;
+			productName = lozzaFirstApp;
+			productReference = BD9FACE32C50F78F0008878E /* lozzaFirstApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD9FACF22C50F7900008878E /* lozzaFirstAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD9FAD0A2C50F7900008878E /* Build configuration list for PBXNativeTarget "lozzaFirstAppTests" */;
+			buildPhases = (
+				BD9FACEF2C50F7900008878E /* Sources */,
+				BD9FACF02C50F7900008878E /* Frameworks */,
+				BD9FACF12C50F7900008878E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD9FACF52C50F7900008878E /* PBXTargetDependency */,
+			);
+			name = lozzaFirstAppTests;
+			productName = lozzaFirstAppTests;
+			productReference = BD9FACF32C50F7900008878E /* lozzaFirstAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD9FACFC2C50F7900008878E /* lozzaFirstAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD9FAD0D2C50F7900008878E /* Build configuration list for PBXNativeTarget "lozzaFirstAppUITests" */;
+			buildPhases = (
+				BD9FACF92C50F7900008878E /* Sources */,
+				BD9FACFA2C50F7900008878E /* Frameworks */,
+				BD9FACFB2C50F7900008878E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD9FACFF2C50F7900008878E /* PBXTargetDependency */,
+			);
+			name = lozzaFirstAppUITests;
+			productName = lozzaFirstAppUITests;
+			productReference = BD9FACFD2C50F7900008878E /* lozzaFirstAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD9FACDB2C50F78E0008878E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					BD9FACE22C50F78F0008878E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					BD9FACF22C50F7900008878E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BD9FACE22C50F78F0008878E;
+					};
+					BD9FACFC2C50F7900008878E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BD9FACE22C50F78F0008878E;
+					};
+				};
+			};
+			buildConfigurationList = BD9FACDE2C50F78E0008878E /* Build configuration list for PBXProject "lozzaFirstApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD9FACDA2C50F78E0008878E;
+			productRefGroup = BD9FACE42C50F78F0008878E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD9FACE22C50F78F0008878E /* lozzaFirstApp */,
+				BD9FACF22C50F7900008878E /* lozzaFirstAppTests */,
+				BD9FACFC2C50F7900008878E /* lozzaFirstAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD9FACE12C50F78F0008878E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9FACEE2C50F7900008878E /* Preview Assets.xcassets in Resources */,
+				BD9FACEB2C50F7900008878E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9FACF12C50F7900008878E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9FACFB2C50F7900008878E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD9FACDF2C50F78F0008878E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9FACE92C50F78F0008878E /* ContentView.swift in Sources */,
+				BD9FACE72C50F78F0008878E /* lozzaFirstAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9FACEF2C50F7900008878E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9FACF82C50F7900008878E /* lozzaFirstAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9FACF92C50F7900008878E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9FAD042C50F7900008878E /* lozzaFirstAppUITestsLaunchTests.swift in Sources */,
+				BD9FAD022C50F7900008878E /* lozzaFirstAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD9FACF52C50F7900008878E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD9FACE22C50F78F0008878E /* lozzaFirstApp */;
+			targetProxy = BD9FACF42C50F7900008878E /* PBXContainerItemProxy */;
+		};
+		BD9FACFF2C50F7900008878E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD9FACE22C50F78F0008878E /* lozzaFirstApp */;
+			targetProxy = BD9FACFE2C50F7900008878E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BD9FAD052C50F7900008878E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD9FAD062C50F7900008878E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD9FAD082C50F7900008878E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"lozzaFirstApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 5375PBDFZQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.lozzaFirstApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD9FAD092C50F7900008878E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"lozzaFirstApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 5375PBDFZQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.lozzaFirstApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD9FAD0B2C50F7900008878E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5375PBDFZQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.lozzaFirstAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lozzaFirstApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lozzaFirstApp";
+			};
+			name = Debug;
+		};
+		BD9FAD0C2C50F7900008878E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5375PBDFZQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.lozzaFirstAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lozzaFirstApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lozzaFirstApp";
+			};
+			name = Release;
+		};
+		BD9FAD0E2C50F7900008878E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5375PBDFZQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.lozzaFirstAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lozzaFirstApp;
+			};
+			name = Debug;
+		};
+		BD9FAD0F2C50F7900008878E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5375PBDFZQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.lozzaFirstAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lozzaFirstApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD9FACDE2C50F78E0008878E /* Build configuration list for PBXProject "lozzaFirstApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD9FAD052C50F7900008878E /* Debug */,
+				BD9FAD062C50F7900008878E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD9FAD072C50F7900008878E /* Build configuration list for PBXNativeTarget "lozzaFirstApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD9FAD082C50F7900008878E /* Debug */,
+				BD9FAD092C50F7900008878E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD9FAD0A2C50F7900008878E /* Build configuration list for PBXNativeTarget "lozzaFirstAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD9FAD0B2C50F7900008878E /* Debug */,
+				BD9FAD0C2C50F7900008878E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD9FAD0D2C50F7900008878E /* Build configuration list for PBXNativeTarget "lozzaFirstAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD9FAD0E2C50F7900008878E /* Debug */,
+				BD9FAD0F2C50F7900008878E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD9FACDB2C50F78E0008878E /* Project object */;
+}
